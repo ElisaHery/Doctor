@@ -1,0 +1,54 @@
+h1 {text-align: center; font-family: 'Lato', sans-serif;}
+h2 {font-family: 'Lato', sans-serif;}
+p {font-family: 'Lato', sans-serif;}
+
+#imagehtml {background-image: url(../images/fond.png); background-repeat: no-repeat;
+width: 140px; height: 500px; margin-left: 95vh; position: fixed;}
+
+/*EPAULE*/
+.epaule {width: 50px; height: 50px; border-radius: 100%; background: green;
+    opacity: 0.33; margin-left: 95vh; margin-top: 12vh; position: fixed;}
+.epauletexte {visibility: hidden; width: 40vh; margin-left: 130vh;
+  margin-top: 10vh; line-height: 1.5em; position: fixed;}
+.epaule:hover {background: black;}
+.epaule:hover ~ .epauletexte {visibility: visible;}
+
+/*COUDE*/
+.coude {width: 50px; height: 50px; border-radius: 100%; background: green;
+    opacity: 0.33; margin-left: 110vh; margin-top: 24vh; position: fixed;}
+.coudetexte {visibility: hidden; width: 40vh; margin-left: 130vh;
+  margin-top: 10vh; line-height: 1.5em; position: fixed;}
+.coude:hover {background: black;}
+.coude:hover ~ .coudetexte {visibility: visible;}
+
+/*POIGNET*/
+.poignet {width: 50px; height: 50px; border-radius: 100%; background: green;
+    opacity: 0.33; margin-left: 93vh; margin-top: 33vh; position: fixed;}
+.poignettexte {visibility: hidden; width: 40vh; margin-left: 130vh;
+  margin-top: 10vh; line-height: 1.5em; position: fixed;}
+.poignet:hover {background: black;}
+.poignet:hover ~ .poignettexte {visibility: visible;}
+
+/*HANCHE*/
+.hanche {width: 50px; height: 50px; border-radius: 100%; background: green;
+    opacity: 0.33; margin-left: 107vh; margin-top: 33vh; position: fixed;}
+.hanchetexte {visibility: hidden; width: 40vh; margin-left: 130vh;
+  margin-top: 10vh; line-height: 1.5em; position: fixed;}
+.hanche:hover {background: black;}
+.hanche:hover ~ .hanchetexte {visibility: visible;}
+
+/*GENOU*/
+.genou {width: 50px; height: 50px; border-radius: 100%; background: green;
+    opacity: 0.33; margin-left: 106vh; margin-top: 50vh; position: fixed;}
+.genoutexte {visibility: hidden; width: 40vh; margin-left: 130vh;
+  margin-top: 10vh; line-height: 1.5em; position: fixed;}
+.genou:hover {background: black;}
+.genou:hover ~ .genoutexte {visibility: visible;}
+
+/*CHEVILLE*/
+.cheville {width: 50px; height: 50px; border-radius: 100%; background: green;
+    opacity: 0.33; margin-left: 99vh; margin-top: 65vh; position: fixed;}
+.chevilletexte {visibility: hidden; width: 40vh; margin-left: 130vh;
+  margin-top: 10vh; line-height: 1.5em; position: fixed;}
+.cheville:hover {background: black;}
+.cheville:hover ~ .chevilletexte {visibility: visible;}
